@@ -1,13 +1,10 @@
-## Steps of Implementation logic 
-- Use Laravel Cashier and Laravel Sail
-- Create Adapter and DTO for payment method
-- Create Controller for new Endpoint
-- Register new endpoint in api routes
-- Include Billable trait in Model
-- Seeds and Factory
-- Run migrations   
-- Create Tests
+## Laravel Apple Server to Server Webhook API
+- Used package https://github.com/jinseokoh/purchase-webhooks
+## Installation
+- Clone repo
+- Composer install
+- Publish vendor files
 
-## Estimation
-- 4h for coding
-- 2h Skeleton, POC architecture prototyping, include packages to composer and new repo 
+This package registers the following POST routes
+
+- `/webhooks/apple/purchase`
